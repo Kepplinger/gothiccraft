@@ -1,0 +1,5 @@
+{
+  "player.death": {
+    "sounds": [ "gothiccraft:SVM_Player_Dead_German" ]
+  }
+}
