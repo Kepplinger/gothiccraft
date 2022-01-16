@@ -15,6 +15,6 @@ public class SoundEventHandler {
     @SubscribeEvent
     public static void onWakeup(PlayerWakeUpEvent event) {
         Player player = event.getPlayer();
-        player.playSound(SoundRegistry.PLAYER_DEATH.get(), 1F, 1F);
+        player.playSound(SoundRegistry.PLAYER_YAWN.get(), 1F, 1F);
     }
 }
