@@ -1,0 +1,16 @@
+{
+  "entity.player.hurt": {
+    "sounds": [
+      {
+        "name": "damage/player_hit0"
+      },
+      {
+        "name": "damage/player_hit1"
+      },
+      {
+        "name": "damage/player_hit2"
+      }
+    ],
+    "subtitle": "Hurt"
+  }
+}

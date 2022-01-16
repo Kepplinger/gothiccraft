@@ -2,7 +2,7 @@
   "player.death": {
     "subtitle": "gothiccraft.player.death",
     "sounds": [
-      "gothiccraft:SVM_Player_Dead_German"
+      "gothiccraft:player_death"
     ]
   }
 }
