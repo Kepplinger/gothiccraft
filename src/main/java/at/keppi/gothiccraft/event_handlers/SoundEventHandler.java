@@ -19,11 +19,4 @@ public class SoundEventHandler {
         Player player = event.getPlayer();
         player.playSound(SoundRegistry.PLAYER_YAWN.get(), 1F, 1F);
     }
-
-    @SubscribeEvent
-    public static void onLivingDeath(LivingDeathEvent event) {
-        if (event.getEntity() instanceof Player player) {
-            SoundService.play(SoundRegistry.PLAYER_DEATH, player);
-        }
-    }
 }
