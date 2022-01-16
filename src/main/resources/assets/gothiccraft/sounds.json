@@ -1,4 +1,10 @@
 {
+  "player.death": {
+    "subtitle": "gothiccraft.player.death",
+    "sounds": [
+      "gothiccraft:player_death"
+    ]
+  },
   "player.yawn": {
     "subtitle": "gothiccraft.player.yawn",
     "sounds": [
