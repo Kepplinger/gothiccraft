@@ -1,6 +1,7 @@
 package at.keppi.gothiccraft;
 
 import at.keppi.gothiccraft.event_handlers.SoundEventHandler;
+import at.keppi.gothiccraft.lists.SoundRegistry;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -13,12 +14,14 @@ import org.apache.logging.log4j.Logger;
 public class GothicCraft {
 
     public static final String ID = "gothiccraft";
-    private static final Logger LOGGER = LogManager.getLogger();
+    public static final Logger LOGGER = LogManager.getLogger();
 
     public GothicCraft() {
-        final IEventBus modBus = FMLJavaModLoadingContext.get().getModEventBus();
+        final IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        modBus.addListener(this::setup);
+        eventBus.addListener(this::setup);
+
+        SoundRegistry.register(eventBus);
     }
 
     private void setup(final FMLCommonSetupEvent event) {

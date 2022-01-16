@@ -1,7 +1,7 @@
 package at.keppi.gothiccraft.event_handlers;
 
 import at.keppi.gothiccraft.GothicCraft;
-import at.keppi.gothiccraft.lists.SoundList;
+import at.keppi.gothiccraft.lists.SoundRegistry;
 import net.minecraft.world.entity.player.Player;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -14,8 +14,9 @@ public class SoundEventHandler {
 
     @SubscribeEvent
     public static void onWakeup(PlayerWakeUpEvent event) {
-        // TODO verify if this a 'LocalPLayer' instance (otherwise you would not hear it)
-        Player player = (Player) event.getPlayer();
-        player.playSound(SoundList.DEATH_SOUND.get(), 1F, 1F);
+        Player player = event.getPlayer();
+
+        player.playSound(SoundRegistry.PLAYER_DEATH.get(), 1F, 1F);
+        GothicCraft.LOGGER.info(player.getName().getString() + " Death sound playing");
     }
 }
