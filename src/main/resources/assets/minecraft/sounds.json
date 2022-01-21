@@ -79,8 +79,8 @@
   },
   "entity.player.burp": {
     "sounds": [
-      "player/burp_1",
-      "player/burp_2"
+      "player/burb_1",
+      "player/burb_2"
     ],
     "replace": true
   },
@@ -178,6 +178,27 @@
       "villager/dead/svm_hum_warrior_proud_dead_german",
       "villager/dead/svm_hum_young_clever_dead_german",
       "villager/dead/svm_hum_young_naive_dead_german"
+    ],
+    "replace": true
+  },
+  "entity.villager.celebrate": {
+    "sounds": [
+      "villager/cheer/cheer_1",
+      "villager/cheer/cheer_2",
+      "villager/cheer/cheer_3",
+      "villager/cheer/cheer_4"
+    ],
+    "replace": true
+  },
+  "entity.villager.no": {
+    "sounds": [
+      "villager/no/no_1",
+      "villager/no/no_2",
+      "villager/no/no_3",
+      "villager/no/no_4",
+      "villager/no/no_5",
+      "villager/no/no_6",
+      "villager/no/no_7"
     ],
     "replace": true
   },
@@ -439,85 +460,145 @@
   },
   "music_disc.11": {
     "sounds": [
-      {"name": "arena-fight00", "stream": true}
+      { "name": "music/arena-fight00", "stream": true}
     ],
     "replace": true
   },
   "music_disc.13": {
     "sounds": [
-      {"name": "explore00", "stream": true}
+      { "name": "music/explore00", "stream": true}
     ],
     "replace": true
   },
   "music_disc.blocks": {
     "sounds": [
-      {"name": "monastery00", "stream": true}
+      { "name": "music/monastery00", "stream": true}
     ],
     "replace": true
   },
   "music_disc.cat": {
     "sounds": [
-      {"name": "myrtana-fight00", "stream": true}
+      { "name": "music/myrtana-fight00", "stream": true}
     ],
     "replace": true
   },
   "music_disc.chirp": {
     "sounds": [
-      {"name": "myrtana-fight-won00", "stream": true}
+      { "name": "music/myrtana-fight-won00", "stream": true}
     ],
     "replace": true
   },
   "music_disc.far": {
     "sounds": [
-      {"name": "sad00", "stream": true}
+      { "name": "music/sad00", "stream": true}
     ],
     "replace": true
   },
   "music_disc.mall": {
     "sounds": [
-      {"name": "varant00", "stream": true}
+      { "name": "music/varant00", "stream": true}
     ],
     "replace": true
   },
   "music_disc.mellohi": {
     "sounds": [
-      {"name": "nordmar00", "stream": true}
+      { "name": "music/nordmar00", "stream": true}
     ],
     "replace": true
   },
   "music_disc.otherside": {
     "sounds": [
-      {"name": "myrtana00", "stream": true}
+      { "name": "music/myrtana00", "stream": true}
     ],
     "replace": true
   },
   "music_disc.pigstep": {
     "sounds": [
-      {"name": "varant-fight00", "stream": true}
+      { "name": "music/varant-fight00", "stream": true}
     ],
     "replace": true
   },
   "music_disc.stal": {
     "sounds": [
-      {"name": "vistapoint-intense00", "stream": true}
+      { "name": "music/vistapoint-intense00", "stream": true}
     ],
     "replace": true
   },
   "music_disc.strad": {
     "sounds": [
-      {"name": "myrtana00", "stream": true}
+      { "name": "music/myrtana00", "stream": true}
     ],
     "replace": true
   },
   "music_disc.wait": {
     "sounds": [
-      {"name": "xardas01", "stream": true}
+      { "name": "music/xardas01", "stream": true}
     ],
     "replace": true
   },
   "music_disc.ward": {
     "sounds": [
-      {"name": "vengard00", "stream": true}
+      { "name": "music/vengard00", "stream": true}
+    ],
+    "replace": true
+  },
+  "ui.button.click": {
+    "sounds": [
+      "ui/click00"
+    ],
+    "replace": true
+  },
+  "ui.cartography_table.take_result": {
+    "sounds": [
+      "ui/success00"
+    ],
+    "replace": true
+  },
+  "ui.loom.select_pattern": {
+    "sounds": [
+      "ui/click00"
+    ],
+    "replace": true
+  },
+  "ui.loom.take_result": {
+    "sounds": [
+      "ui/success00"
+    ],
+    "replace": true
+  },
+  "ui.stonecutter.select_recipe": {
+    "sounds": [
+      "ui/click00"
+    ],
+    "replace": true
+  },
+  "ui.stonecutter.take_result": {
+    "sounds": [
+      "ui/success00"
+    ],
+    "replace": true
+  },
+  "ui.toast.challenge_complete": {
+    "sounds": [
+      "ui/success00"
+    ],
+    "replace": true
+  },
+  "ui.toast.in": {
+    "sounds": [
+      "ui/open00"
+    ],
+    "replace": true
+  },
+  "weather.rain": {
+    "sounds": [
+      { "name": "weather/rain-soft00", "stream": true }
+    ],
+    "replace": true
+  },
+  "weather.rain.above": {
+    "sounds": [
+      { "name": "weather/rain-soft00", "stream": true }
     ],
     "replace": true
   }
