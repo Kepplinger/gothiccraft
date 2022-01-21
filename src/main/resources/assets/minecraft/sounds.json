@@ -3,7 +3,6 @@
     "sounds": [
       "damage/player_death"
     ],
-    "subtitle": "Death",
     "replace": true
   },
   "entity.player.hurt": {
@@ -12,14 +11,46 @@
       "damage/player_hit1",
       "damage/player_hit2"
     ],
-    "subtitle": "Hurt",
     "replace": true
   },
   "entity.player.levelup": {
     "sounds": [
       "player/level_up"
     ],
-    "subtitle": "LevelUp",
+    "replace": true
+  },
+  "music.menu": {
+    "sounds": [
+      { "name": "music/menu", "stream": true }
+    ],
+    "replace": true
+  },
+  "music.creative": {
+    "sounds": [
+      { "name": "music/myrtana00", "stream": true },
+      { "name": "music/myrtana01", "stream": true },
+      { "name": "music/myrtana02", "stream": true },
+      { "name": "music/myrtana03", "stream": true },
+      { "name": "music/myrtana04", "stream": true },
+      { "name": "music/myrtana05", "stream": true },
+      { "name": "music/myrtana06", "stream": true },
+      { "name": "music/myrtana-woods00", "stream": true },
+      { "name": "music/myrtana-woods01", "stream": true }
+    ],
+    "replace": true
+  },
+  "music.game": {
+    "sounds": [
+      { "name": "music/myrtana00", "stream": true },
+      { "name": "music/myrtana01", "stream": true },
+      { "name": "music/myrtana02", "stream": true },
+      { "name": "music/myrtana03", "stream": true },
+      { "name": "music/myrtana04", "stream": true },
+      { "name": "music/myrtana05", "stream": true },
+      { "name": "music/myrtana06", "stream": true },
+      { "name": "music/myrtana-woods00", "stream": true },
+      { "name": "music/myrtana-woods01", "stream": true }
+    ],
     "replace": true
   }
 }
