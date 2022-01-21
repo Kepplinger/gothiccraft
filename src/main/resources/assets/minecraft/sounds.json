@@ -3,7 +3,8 @@
     "sounds": [
       "damage/player_death"
     ],
-    "subtitle": "Death"
+    "subtitle": "Death",
+    "replace": true
   },
   "entity.player.hurt": {
     "sounds": [
@@ -11,6 +12,7 @@
       "damage/player_hit1",
       "damage/player_hit2"
     ],
-    "subtitle": "Hurt"
+    "subtitle": "Hurt",
+    "replace": true
   }
 }

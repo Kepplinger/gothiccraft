@@ -1,8 +1,6 @@
 package at.keppi.gothiccraft;
 
-import at.keppi.gothiccraft.event_handlers.SoundEventHandler;
 import at.keppi.gothiccraft.lists.SoundRegistry;
-import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
