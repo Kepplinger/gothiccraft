@@ -1,4 +1,39 @@
 {
+  "ambient.underwater.enter": {
+    "sounds": [
+      "ambient/water/water_enter"
+    ],
+    "replace": true
+  },
+  "block.stone.break": {
+    "sounds": [
+      "animation/block/stone/pickore_01_a01",
+      "animation/block/stone/pickore_01_a02",
+      "animation/block/stone/pickore_02_a00",
+      "animation/block/stone/pickore_02_a01"
+    ],
+    "replace": true
+  },
+  "block.stone.fall": {
+    "sounds": [
+      "animation/block/stone/pickground_a01",
+      "animation/block/stone/pickground_a02",
+      "animation/block/stone/pickground_a03",
+      "animation/block/stone/pickground_a04",
+      "animation/block/stone/pickground_a05"
+    ],
+    "replace": true
+  },
+  "block.stone.hit": {
+    "sounds": [
+      "animation/block/stone/pickground_a01",
+      "animation/block/stone/pickground_a02",
+      "animation/block/stone/pickground_a03",
+      "animation/block/stone/pickground_a04",
+      "animation/block/stone/pickground_a05"
+    ],
+    "replace": true
+  },
   "entity.player.death": {
     "sounds": [
       "damage/player_death"
@@ -20,6 +55,28 @@
       "player/level_up"
     ],
     "subtitle": "LevelUp",
+    "replace": true
+  },
+  "entity.player.swim": {
+    "sounds": [
+      "animation/swim/swim_01",
+      "animation/swim/swim_02",
+      "animation/swim/swim_03",
+      "animation/swim/swim_04",
+      "animation/swim/swim_05",
+      "animation/swim/swim_06",
+      "animation/swim/swim_07",
+      "animation/swim/swim_08",
+      "animation/swim/swim_09",
+      "animation/swim/swim_10",
+      "animation/swim/swim_11",
+      "animation/swim/swim_12",
+      "animation/swim/swim_13",
+      "animation/swim/swim_14",
+      "animation/swim/swim_15",
+      "animation/swim/swim_16",
+      "animation/swim/swim_17"
+    ],
     "replace": true
   }
 }
