@@ -16,10 +16,86 @@
     "replace": true
   },
   "entity.player.levelup": {
-    "sounds": [
-      "player/level_up"
-    ],
+    "sounds": [ "player/level_up" ],
     "subtitle": "LevelUp",
+    "replace": true
+  },
+  "entity.villager.ambient": {
+    "sounds": [
+      "villager/hum_young_clever_smalltalk_0",
+      "villager/hum_young_clever_smalltalk_1",
+      "villager/hum_young_clever_smalltalk_2",
+      "villager/hum_young_clever_smalltalk_3",
+      "villager/hum_young_clever_smalltalk_4",
+      "villager/hum_young_clever_smalltalk_5",
+      "villager/hum_young_clever_smalltalk_6",
+      "villager/hum_young_clever_smalltalk_7",
+      "villager/hum_young_clever_smalltalk_8",
+      "villager/hum_young_clever_smalltalk_9",
+      "svm_hum_elite_hard_smalltalk_00_german",
+      "svm_hum_elite_hard_smalltalk_01_german",
+      "svm_hum_elite_hard_smalltalk_02_german",
+      "svm_hum_elite_hard_smalltalk_03_german",
+      "svm_hum_elite_hard_smalltalk_04_german",
+      "svm_hum_elite_hard_smalltalk_05_german",
+      "svm_hum_elite_hard_smalltalk_06_german",
+      "svm_hum_elite_hard_smalltalk_07_german",
+      "svm_hum_elite_hard_smalltalk_08_german",
+      "svm_hum_elite_hard_smalltalk_09_german",
+      "svm_hum_warrior_dumb_smalltalk_00_german",
+      "svm_hum_warrior_dumb_smalltalk_01_german",
+      "svm_hum_warrior_dumb_smalltalk_02_german",
+      "svm_hum_warrior_dumb_smalltalk_03_german",
+      "svm_hum_warrior_dumb_smalltalk_04_german",
+      "svm_hum_warrior_dumb_smalltalk_05_german",
+      "svm_hum_warrior_dumb_smalltalk_06_german",
+      "svm_hum_warrior_dumb_smalltalk_07_german",
+      "svm_hum_warrior_dumb_smalltalk_08_german",
+      "svm_hum_warrior_dumb_smalltalk_09_german"
+    ],
+    "replace": true
+  },
+  "entity.arrow.shoot": {
+    "sounds": [
+      "arrow/shoot_1",
+      "arrow/shoot_2",
+      "arrow/shoot_3"
+    ],
+    "replace": true
+  },
+  "entity.arrow.hit": {
+    "sounds": [
+      "arrow/hit_1",
+      "arrow/hit_2",
+      "arrow/hit_3",
+      "arrow/hit_4"
+    ],
+    "replace": true
+  },
+  "entity.chicken.egg": {
+    "sounds": [ "chicken/egg" ],
+    "replace": true
+  },
+  "entity.chicken.death": {
+    "sounds": [
+      "chicken/death_1",
+      "chicken/death_2"
+    ],
+    "replace": true
+  },
+  "entity.chicken.ambient": {
+    "sounds": [
+      "chicken/ambient_1",
+      "chicken/ambient_2",
+      "chicken/ambient_3"
+    ],
+    "replace": true
+  },
+  "entity.chicken.hit": {
+    "sounds": [
+      "chicken/hit_1",
+      "chicken/hit_2"
+    ],
     "replace": true
   }
 }
