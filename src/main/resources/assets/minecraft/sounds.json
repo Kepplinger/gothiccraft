@@ -144,6 +144,15 @@
     ],
     "replace": true
   },
+  "entity.villager.celebrate": {
+    "sounds": [
+      "villager/cheer/cheer_1",
+      "villager/cheer/cheer_2",
+      "villager/cheer/cheer_3",
+      "villager/cheer/cheer_4"
+    ],
+    "replace": true
+  },
   "entity.villager.no": {
     "sounds": [
       "villager/no/no_1",
