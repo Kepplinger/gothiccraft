@@ -5,32 +5,69 @@
     ],
     "replace": true
   },
+  "block.chest.close": {
+    "sounds": [
+      "block/chest/chest_close_01_a00",
+      "block/chest/chest_close_02_a00",
+      "block/chest/chest_close_03_a00",
+      "block/chest/chest_close_04_a00",
+      "block/chest/chest_close_07_a00",
+      "block/chest/chest_close_08_a00",
+      "block/chest/chest_close_09_a00",
+      "block/chest/chest_close_10_a00",
+      "block/chest/chest_close_11_a00"
+    ],
+    "replace": true
+  },
+  "block.chest.locked": {
+    "sounds": [
+      "block/chest/player_toohard_german",
+      "block/chest/player_tooheavy_german"
+    ],
+    "replace": true
+  },
+  "block.chest.open": {
+    "sounds": [
+      "block/chest/chest_open_01_a00",
+      "block/chest/chest_open_02_a00",
+      "block/chest/chest_open_03_a00",
+      "block/chest/chest_open_04_a00",
+      "block/chest/chest_open_05_a00",
+      "block/chest/chest_open_06_a00",
+      "block/chest/chest_open_07_a00",
+      "block/chest/chest_open_08_a00",
+      "block/chest/chest_open_09_a00",
+      "block/chest/chest_open_10_a00",
+      "block/chest/chest_open_11_a00"
+    ],
+    "replace": true
+  },
   "block.stone.break": {
     "sounds": [
-      "animation/block/stone/pickore_01_a01",
-      "animation/block/stone/pickore_01_a02",
-      "animation/block/stone/pickore_02_a00",
-      "animation/block/stone/pickore_02_a01"
+      "block/stone/pickore_01_a01",
+      "block/stone/pickore_01_a02",
+      "block/stone/pickore_02_a00",
+      "block/stone/pickore_02_a01"
     ],
     "replace": true
   },
   "block.stone.fall": {
     "sounds": [
-      "animation/block/stone/pickground_a01",
-      "animation/block/stone/pickground_a02",
-      "animation/block/stone/pickground_a03",
-      "animation/block/stone/pickground_a04",
-      "animation/block/stone/pickground_a05"
+      "block/stone/pickground_a01",
+      "block/stone/pickground_a02",
+      "block/stone/pickground_a03",
+      "block/stone/pickground_a04",
+      "block/stone/pickground_a05"
     ],
     "replace": true
   },
   "block.stone.hit": {
     "sounds": [
-      "animation/block/stone/pickground_a01",
-      "animation/block/stone/pickground_a02",
-      "animation/block/stone/pickground_a03",
-      "animation/block/stone/pickground_a04",
-      "animation/block/stone/pickground_a05"
+      "block/stone/pickground_a01",
+      "block/stone/pickground_a02",
+      "block/stone/pickground_a03",
+      "block/stone/pickground_a04",
+      "block/stone/pickground_a05"
     ],
     "replace": true
   },
