@@ -23,4 +23,5 @@ If you encounter any errors, please read the docs and try to solve them: https:/
 ### Useful Links
 
 Forge Docs: https://mcforge.readthedocs.io/en/1.18.x/ <br />
-Gothic 3 PAK extractor: http://www.bendlins.de/nico/gothic3/
+Gothic 3 PAK extractor: http://www.bendlins.de/nico/gothic3/ <br />
+sounds.json entires: https://minecraft.fandom.com/wiki/Sounds.json#Sound_events
