@@ -42,8 +42,8 @@
   },
   "entity.player.burp": {
     "sounds": [
-      "player/burp_1",
-      "player/burp_2"
+      "player/burb_1",
+      "player/burb_2"
     ],
     "replace": true
   },
@@ -141,6 +141,18 @@
       "villager/dead/svm_hum_warrior_proud_dead_german",
       "villager/dead/svm_hum_young_clever_dead_german",
       "villager/dead/svm_hum_young_naive_dead_german"
+    ],
+    "replace": true
+  },
+  "entity.villager.no": {
+    "sounds": [
+      "villager/no/no_1",
+      "villager/no/no_2",
+      "villager/no/no_3",
+      "villager/no/no_4",
+      "villager/no/no_5",
+      "villager/no/no_6",
+      "villager/no/no_7"
     ],
     "replace": true
   },
