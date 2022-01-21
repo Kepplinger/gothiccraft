@@ -40,7 +40,46 @@
     ],
     "replace": true
   },
+  "entity.player.burp": {
+    "sounds": [
+      "player/burp_1",
+      "player/burp_2"
+    ],
+    "replace": true
+  },
   "entity.player.hurt": {
+    "sounds": [
+      "damage/player_hit0",
+      "damage/player_hit1",
+      "damage/player_hit2"
+    ],
+    "replace": true
+  },
+  "entity.player.hurt_drown": {
+    "sounds": [
+      "damage/player_hit0",
+      "damage/player_hit1",
+      "damage/player_hit2"
+    ],
+    "replace": true
+  },
+  "entity.player.hurt_freeze": {
+    "sounds": [
+      "damage/player_hit0",
+      "damage/player_hit1",
+      "damage/player_hit2"
+    ],
+    "replace": true
+  },
+  "entity.player.hurt_on_fire": {
+    "sounds": [
+      "damage/player_hit0",
+      "damage/player_hit1",
+      "damage/player_hit2"
+    ],
+    "replace": true
+  },
+  "entity.player.hurt_sweet_berry_bush": {
     "sounds": [
       "damage/player_hit0",
       "damage/player_hit1",
@@ -53,38 +92,104 @@
     "subtitle": "LevelUp",
     "replace": true
   },
+  "entity.player.splash": {
+    "sounds": [ "player/splash" ],
+    "replace": true
+  },
+  "entity.player.splash.high_speed": {
+    "sounds": [ "player/splash" ],
+    "replace": true
+  },
+  "entity.player.swim": {
+    "sounds": [
+      "player/swim/swim_01",
+      "player/swim/swim_02",
+      "player/swim/swim_03",
+      "player/swim/swim_04",
+      "player/swim/swim_05",
+      "player/swim/swim_06",
+      "player/swim/swim_07",
+      "player/swim/swim_08",
+      "player/swim/swim_09",
+      "player/swim/swim_10",
+      "player/swim/swim_11",
+      "player/swim/swim_12",
+      "player/swim/swim_13",
+      "player/swim/swim_14",
+      "player/swim/swim_15",
+      "player/swim/swim_16",
+      "player/swim/swim_17"
+    ],
+    "replace": true
+  },
+  "entity.villager.death": {
+    "sounds": [
+      "villager/dead/svm_hum_old_calm_dead_german",
+      "villager/dead/svm_hum_old_weak_dead_german",
+      "villager/dead/svm_hum_old_weird_dead_german",
+      "villager/dead/svm_hum_old_wise_dead_german",
+      "villager/dead/svm_hum_slave_clever_dead_german",
+      "villager/dead/svm_hum_slave_defiant_dead_german",
+      "villager/dead/svm_hum_slave_tired_dead_german",
+      "villager/dead/svm_hum_slave_weak_dead_german",
+      "villager/dead/svm_hum_warrior_bearish_dead_german",
+      "villager/dead/svm_hum_warrior_calm_dead_german",
+      "villager/dead/svm_hum_warrior_clear_dead_german",
+      "villager/dead/svm_hum_warrior_dumb_dead_german",
+      "villager/dead/svm_hum_warrior_friendly_dead_german",
+      "villager/dead/svm_hum_warrior_hard_dead_german",
+      "villager/dead/svm_hum_warrior_proud_dead_german",
+      "villager/dead/svm_hum_young_clever_dead_german",
+      "villager/dead/svm_hum_young_naive_dead_german"
+    ],
+    "replace": true
+  },
+  "entity.villager.hurt": {
+    "sounds": [
+      "villager/hurt/svm_hum_young_clever_aargh_00_german",
+      "villager/hurt/svm_hum_young_clever_aargh_01_german",
+      "villager/hurt/svm_hum_young_clever_aargh_02_german",
+      "villager/hurt/svm_hum_young_naive_aargh_00_german",
+      "villager/hurt/svm_hum_young_naive_aargh_01_german",
+      "villager/hurt/svm_hum_young_naive_aargh_02_german",
+      "villager/hurt/svm_rhobar_aargh_00_german",
+      "villager/hurt/svm_rhobar_aargh_01_german",
+      "villager/hurt/svm_rhobar_aargh_02_german"
+    ],
+    "replace": true
+  },
   "entity.villager.ambient": {
     "sounds": [
-      "villager/hum_young_clever_smalltalk_0",
-      "villager/hum_young_clever_smalltalk_1",
-      "villager/hum_young_clever_smalltalk_2",
-      "villager/hum_young_clever_smalltalk_3",
-      "villager/hum_young_clever_smalltalk_4",
-      "villager/hum_young_clever_smalltalk_5",
-      "villager/hum_young_clever_smalltalk_6",
-      "villager/hum_young_clever_smalltalk_7",
-      "villager/hum_young_clever_smalltalk_8",
-      "villager/hum_young_clever_smalltalk_9",
-      "svm_hum_elite_hard_smalltalk_00_german",
-      "svm_hum_elite_hard_smalltalk_01_german",
-      "svm_hum_elite_hard_smalltalk_02_german",
-      "svm_hum_elite_hard_smalltalk_03_german",
-      "svm_hum_elite_hard_smalltalk_04_german",
-      "svm_hum_elite_hard_smalltalk_05_german",
-      "svm_hum_elite_hard_smalltalk_06_german",
-      "svm_hum_elite_hard_smalltalk_07_german",
-      "svm_hum_elite_hard_smalltalk_08_german",
-      "svm_hum_elite_hard_smalltalk_09_german",
-      "svm_hum_warrior_dumb_smalltalk_00_german",
-      "svm_hum_warrior_dumb_smalltalk_01_german",
-      "svm_hum_warrior_dumb_smalltalk_02_german",
-      "svm_hum_warrior_dumb_smalltalk_03_german",
-      "svm_hum_warrior_dumb_smalltalk_04_german",
-      "svm_hum_warrior_dumb_smalltalk_05_german",
-      "svm_hum_warrior_dumb_smalltalk_06_german",
-      "svm_hum_warrior_dumb_smalltalk_07_german",
-      "svm_hum_warrior_dumb_smalltalk_08_german",
-      "svm_hum_warrior_dumb_smalltalk_09_german"
+      "villager/ambient/hum_young_clever_smalltalk_0",
+      "villager/ambient/hum_young_clever_smalltalk_1",
+      "villager/ambient/hum_young_clever_smalltalk_2",
+      "villager/ambient/hum_young_clever_smalltalk_3",
+      "villager/ambient/hum_young_clever_smalltalk_4",
+      "villager/ambient/hum_young_clever_smalltalk_5",
+      "villager/ambient/hum_young_clever_smalltalk_6",
+      "villager/ambient/hum_young_clever_smalltalk_7",
+      "villager/ambient/hum_young_clever_smalltalk_8",
+      "villager/ambient/hum_young_clever_smalltalk_9",
+      "villager/ambient/svm_hum_elite_hard_smalltalk_00_german",
+      "villager/ambient/svm_hum_elite_hard_smalltalk_01_german",
+      "villager/ambient/svm_hum_elite_hard_smalltalk_02_german",
+      "villager/ambient/svm_hum_elite_hard_smalltalk_03_german",
+      "villager/ambient/svm_hum_elite_hard_smalltalk_04_german",
+      "villager/ambient/svm_hum_elite_hard_smalltalk_05_german",
+      "villager/ambient/svm_hum_elite_hard_smalltalk_06_german",
+      "villager/ambient/svm_hum_elite_hard_smalltalk_07_german",
+      "villager/ambient/svm_hum_elite_hard_smalltalk_08_german",
+      "villager/ambient/svm_hum_elite_hard_smalltalk_09_german",
+      "villager/ambient/svm_hum_warrior_dumb_smalltalk_00_german",
+      "villager/ambient/svm_hum_warrior_dumb_smalltalk_01_german",
+      "villager/ambient/svm_hum_warrior_dumb_smalltalk_02_german",
+      "villager/ambient/svm_hum_warrior_dumb_smalltalk_03_german",
+      "villager/ambient/svm_hum_warrior_dumb_smalltalk_04_german",
+      "villager/ambient/svm_hum_warrior_dumb_smalltalk_05_german",
+      "villager/ambient/svm_hum_warrior_dumb_smalltalk_06_german",
+      "villager/ambient/svm_hum_warrior_dumb_smalltalk_07_german",
+      "villager/ambient/svm_hum_warrior_dumb_smalltalk_08_german",
+      "villager/ambient/svm_hum_warrior_dumb_smalltalk_09_german"
     ],
     "replace": true
   },
@@ -134,28 +239,6 @@
   "music.menu": {
     "sounds": [
       { "name": "music/menu", "stream": true }
-    ],
-    "replace": true
-  },
-  "entity.player.swim": {
-    "sounds": [
-      "animation/swim/swim_01",
-      "animation/swim/swim_02",
-      "animation/swim/swim_03",
-      "animation/swim/swim_04",
-      "animation/swim/swim_05",
-      "animation/swim/swim_06",
-      "animation/swim/swim_07",
-      "animation/swim/swim_08",
-      "animation/swim/swim_09",
-      "animation/swim/swim_10",
-      "animation/swim/swim_11",
-      "animation/swim/swim_12",
-      "animation/swim/swim_13",
-      "animation/swim/swim_14",
-      "animation/swim/swim_15",
-      "animation/swim/swim_16",
-      "animation/swim/swim_17"
     ],
     "replace": true
   },
