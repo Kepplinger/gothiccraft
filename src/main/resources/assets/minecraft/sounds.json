@@ -14,5 +14,12 @@
     ],
     "subtitle": "Hurt",
     "replace": true
+  },
+  "entity.player.levelup": {
+    "sounds": [
+      "player/level_up"
+    ],
+    "subtitle": "LevelUp",
+    "replace": true
   }
 }
