@@ -2,6 +2,7 @@
  - music
  - ui
  - weather
+ - footsteps
 
 # Luk
  - ambient
