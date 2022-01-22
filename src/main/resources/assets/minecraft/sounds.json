@@ -190,6 +190,14 @@
     ],
     "replace": true
   },
+  "entity.villager.trade": {
+    "sounds": [
+      "villager/trade/svm_player_trade_00_german",
+      "villager/trade/svm_player_trade_01_german",
+      "villager/trade/svm_player_trade_02_german"
+    ],
+    "replace": true
+  },
   "entity.villager.no": {
     "sounds": [
       "villager/no/no_1",
