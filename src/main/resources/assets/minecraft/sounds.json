@@ -1,7 +1,7 @@
 {
   "ambient.underwater.enter": {
     "sounds": [
-      "ambient/water/water_enter"
+      "block/water/water_enter"
     ],
     "replace": true
   },
@@ -68,6 +68,25 @@
       "block/stone/pickground_a03",
       "block/stone/pickground_a04",
       "block/stone/pickground_a05"
+    ],
+    "replace": true
+  },
+  "block.water.ambient": {
+    "sounds": [
+      {"name": "block/water/river_01", "volume": 0.1, "attenuation_distance": 16},
+      {"name": "block/water/river_02", "volume": 0.1, "attenuation_distance": 16},
+      {"name": "block/water/river_03", "volume": 0.1, "attenuation_distance": 16},
+      {"name": "block/water/river_04", "volume": 0.1, "attenuation_distance": 16},
+      {"name": "block/water/river_05", "volume": 0.1, "attenuation_distance": 16},
+      {"name": "block/water/river_06", "volume": 0.1, "attenuation_distance": 16},
+      {"name": "block/water/river_07", "volume": 0.1, "attenuation_distance": 16},
+      {"name": "block/water/water_beach_01", "volume": 0.1, "attenuation_distance": 16},
+      {"name": "block/water/water_broom_01", "volume": 0.1, "attenuation_distance": 16},
+      {"name": "block/water/waterfall_01", "volume": 0.1, "attenuation_distance": 16},
+      {"name": "block/water/waterfall_02", "volume": 0.1, "attenuation_distance": 16},
+      {"name": "block/water/waterfall_03", "volume": 0.1, "attenuation_distance": 16},
+      {"name": "block/water/waterfall_06", "volume": 0.1, "attenuation_distance": 16},
+      {"name": "block/water/waterfall_distant_01", "volume": 0.1, "attenuation_distance": 16}
     ],
     "replace": true
   },
