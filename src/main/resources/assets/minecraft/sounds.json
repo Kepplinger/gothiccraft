@@ -211,9 +211,18 @@
   },
   "entity.villager.trade": {
     "sounds": [
-      "villager/trade/svm_player_trade_00_german",
-      "villager/trade/svm_player_trade_01_german",
-      "villager/trade/svm_player_trade_02_german"
+      "villager/trade/trade_1",
+      "villager/trade/trade_2"
+    ],
+    "replace": true
+  },
+  "entity.villager.yes": {
+    "sounds": [
+      "villager/yes/yes_1",
+      "villager/yes/yes_2",
+      "villager/yes/yes_3",
+      "villager/yes/yes_4",
+      "villager/yes/yes_5"
     ],
     "replace": true
   },
