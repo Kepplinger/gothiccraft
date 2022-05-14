@@ -77,6 +77,16 @@
     ],
     "replace": true
   },
+  "entity.zombie.ambient": {
+    "sounds": [
+      "zombie/ambient/orc_ambient_0",
+      "zombie/ambient/orc_ambient_1",
+      "zombie/ambient/orc_ambient_2",
+      "zombie/ambient/orc_ambient_3",
+      "zombie/ambient/orc_ambient_4"
+    ],
+    "replace": true
+  },
   "entity.zombie.hurt": {
     "sounds": [
       "zombie/hurt/orc_hurt_0",
@@ -86,6 +96,31 @@
       "zombie/hurt/orc_hurt_4",
       "zombie/hurt/orc_hurt_5",
       "zombie/hurt/orc_hurt_6"
+    ],
+    "replace": true
+  },
+  "entity.zombie.death": {
+    "sounds": [
+      "zombie/death/orc_death_0",
+      "zombie/death/orc_death_1",
+      "zombie/death/orc_death_2",
+      "zombie/death/orc_death_3",
+      "zombie/death/orc_death_4",
+      "zombie/death/orc_death_5",
+      "zombie/death/orc_death_6",
+      "zombie/death/orc_death_7"
+    ],
+    "replace": true
+  },
+  "entity.zombie.attack_wooden_door": {
+    "sounds": [
+      "zombie/attack_wooden_door/orc_raus_0"
+    ],
+    "replace": true
+  },
+  "entity.zombie.wooden_door_break": {
+    "sounds": [
+      "zombie/door_break/break"
     ],
     "replace": true
   },
