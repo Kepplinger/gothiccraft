@@ -373,6 +373,37 @@
     ],
     "replace": true
   },
+  "entity.cow.ambient": {
+    "sounds": [
+      "cow/sfx_creature_cow_moo_01",
+      "cow/sfx_creature_cow_moo_02",
+      "cow/sfx_creature_cow_moo_03"
+    ],
+    "replace": true
+  },
+  "entity.cow.death": {
+    "sounds": [
+      "cow/sfx_creature_cow_die_01",
+      "cow/sfx_creature_cow_die_02",
+      "cow/sfx_creature_cow_die_03",
+      "cow/sfx_creature_cow_die_04",
+      "cow/sfx_creature_cow_die_05"
+    ],
+    "replace": true
+  },
+  "entity.cow.hurt": {
+    "sounds": [
+      "cow/sfx_creature_cow_stumble_01",
+      "cow/sfx_creature_cow_stumble_02",
+      "cow/sfx_creature_cow_stumble_03",
+      "cow/sfx_creature_cow_stumble_04",
+      "cow/sfx_creature_cow_stumble_05",
+      "cow/sfx_creature_cow_stumble_06"
+    ],
+    "replace": true
+  },
+
+
   "music.menu": {
     "sounds": [
       { "name": "music/menu", "stream": true }
