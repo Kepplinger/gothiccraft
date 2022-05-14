@@ -1,11 +1,9 @@
 package at.keppi.gothiccraft.event_handlers;
 
 import at.keppi.gothiccraft.GothicCraft;
-import at.keppi.gothiccraft.lists.SoundRegistry;
-import at.keppi.gothiccraft.services.SoundService;
+import at.keppi.gothiccraft.registry.SoundRegistry;
 import net.minecraft.world.entity.player.Player;
 import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.event.entity.living.LivingDeathEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;

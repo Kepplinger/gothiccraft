@@ -337,166 +337,75 @@
     "replace": true
   },
   "music.nether.basalt_deltas": {
-    "sounds": [
-      { "name": "music/orcmine00", "stream": true },
-      { "name": "music/orcmine01", "stream": true },
-      { "name": "music/orcmine-fight01", "stream": true },
-      { "name": "music/orcmine_fight00", "stream": true }
-    ]
+    "sounds": []
   },
   "music.nether.crimson_forest": {
-    "sounds": [
-      { "name": "music/orcmine00", "stream": true },
-      { "name": "music/orcmine01", "stream": true },
-      { "name": "music/orcmine-fight01", "stream": true },
-      { "name": "music/orcmine_fight00", "stream": true }
-    ]
+    "sounds": []
   },
   "music.nether.nether_wastes": {
-    "sounds": [
-      { "name": "music/orcmine00", "stream": true },
-      { "name": "music/orcmine01", "stream": true },
-      { "name": "music/orcmine-fight01", "stream": true },
-      { "name": "music/orcmine_fight00", "stream": true }
-    ]
+    "sounds": []
   },
   "music.nether.soul_sand_valley": {
-    "sounds": [
-      { "name": "music/orcmine00", "stream": true },
-      { "name": "music/orcmine01", "stream": true },
-      { "name": "music/orcmine-fight01", "stream": true },
-      { "name": "music/orcmine_fight00", "stream": true }
-    ]
+    "sounds": []
   },
   "music.nether.warped_forest": {
-    "sounds": [
-      { "name": "music/orcmine00", "stream": true },
-      { "name": "music/orcmine01", "stream": true },
-      { "name": "music/orcmine-fight01", "stream": true },
-      { "name": "music/orcmine_fight00", "stream": true }
-    ]
+    "sounds": []
   },
   "music.creative": {
-    "sounds": [
-      { "name": "music/myrtana00", "stream": true },
-      { "name": "music/myrtana01", "stream": true },
-      { "name": "music/myrtana02", "stream": true },
-      { "name": "music/myrtana03", "stream": true },
-      { "name": "music/myrtana04", "stream": true },
-      { "name": "music/myrtana05", "stream": true },
-      { "name": "music/myrtana06", "stream": true },
-      { "name": "music/myrtana-woods00", "stream": true },
-      { "name": "music/myrtana-woods01", "stream": true }
-    ],
+    "sounds": [],
     "replace": true
   },
   "music.game": {
-    "sounds": [
-      { "name": "music/myrtana00", "stream": true },
-      { "name": "music/myrtana01", "stream": true },
-      { "name": "music/myrtana02", "stream": true },
-      { "name": "music/myrtana03", "stream": true },
-      { "name": "music/myrtana04", "stream": true },
-      { "name": "music/myrtana05", "stream": true },
-      { "name": "music/myrtana06", "stream": true },
-      { "name": "music/myrtana-woods00", "stream": true },
-      { "name": "music/myrtana-woods01", "stream": true }
-    ],
+    "sounds": [],
     "replace": true
   },
   "music.overworld.meadow": {
-    "sounds": [
-      { "name": "music/myrtana00", "stream": true },
-      { "name": "music/myrtana01", "stream": true },
-      { "name": "music/myrtana02", "stream": true },
-      { "name": "music/myrtana03", "stream": true },
-      { "name": "music/myrtana04", "stream": true },
-      { "name": "music/myrtana05", "stream": true },
-      { "name": "music/myrtana06", "stream": true },
-      { "name": "music/myrtana-woods00", "stream": true },
-      { "name": "music/myrtana-woods01", "stream": true }
-    ],
+    "sounds": [],
     "replace": true
   },
   "music.credits": {
-    "sounds": [
-      { "name": "music/sad00", "stream": true }
-    ],
+    "sounds": [],
     "replace": true
   },
   "music.dragon": {
-    "sounds": [
-      { "name": "music/myrtana-boss-fight00", "stream": true }
-    ],
+    "sounds": [],
     "replace": true
   },
   "music.end": {
-    "sounds": [
-      { "name": "music/orccamp", "stream": true }
-    ],
+    "sounds": [],
     "replace": true
   },
   "music.overworld.frozen_peaks": {
-    "sounds": [
-      { "name": "music/nordmar00", "stream": true },
-      { "name": "music/nordmar01", "stream": true },
-      { "name": "music/nordmar02", "stream": true },
-      { "name": "music/nordmar-cave00", "stream": true }
-    ],
+    "sounds": [],
     "replace": true
   },
   "music.overworld.snowy_slopes": {
-    "sounds": [
-      { "name": "music/nordmar00", "stream": true },
-      { "name": "music/nordmar01", "stream": true },
-      { "name": "music/nordmar02", "stream": true },
-      { "name": "music/nordmar-cave00", "stream": true }
-    ],
+    "sounds": [],
     "replace": true
   },
   "music.overworld.grove": {
-    "sounds": [
-      { "name": "music/nordmar00", "stream": true },
-      { "name": "music/nordmar01", "stream": true },
-      { "name": "music/nordmar02", "stream": true },
-      { "name": "music/nordmar-cave00", "stream": true }
-    ],
+    "sounds": [],
     "replace": true
   },
   "music.overworld.jagged_peaks": {
-    "sounds": [
-      { "name": "music/nordmar00", "stream": true },
-      { "name": "music/nordmar01", "stream": true },
-      { "name": "music/nordmar02", "stream": true },
-      { "name": "music/nordmar-cave00", "stream": true }
-    ],
+    "sounds": [],
     "replace": true
   },
   "music.overworld.stony_peaks": {
-    "sounds": [
-      { "name": "music/nordmar00", "stream": true },
-      { "name": "music/nordmar01", "stream": true },
-      { "name": "music/nordmar02", "stream": true },
-      { "name": "music/nordmar-cave00", "stream": true }
-    ],
+    "sounds": [],
     "replace": true
   },
   "music.overworld.lush_caves": {
-    "sounds": [
-      { "name": "music/cave00", "stream": true },
-      { "name": "music/cave01", "stream": true }
-    ],
+    "sounds": [],
     "replace": true
   },
   "music.under_water": {
-    "sounds": [
-      { "name": "music/xardas00", "stream": true }
-    ],
+    "sounds": [],
     "replace": true
   },
   "music_disc.11": {
     "sounds": [
-      { "name": "music/arena-fight00", "stream": true}
+      { "name": "music/arena-fight00", "stream": true }
     ],
     "replace": true
   },

@@ -1,9 +1,101 @@
 {
   "player.yawn": {
-    "subtitle": "gothiccraft.player.yawn",
     "sounds": [
-      "gothiccraft:player_yawn0",
-      "gothiccraft:player_yawn1"
+      "gothiccraft:player/player_yawn0",
+      "gothiccraft:player/player_yawn1"
+    ]
+  },
+  "music.arena-fight": {
+    "sounds": [
+      "gothiccraft:music/arena-fight00"
+    ]
+  },
+  "music.cave": {
+    "sounds": [
+      "gothiccraft:music/cave00",
+      "gothiccraft:music/cave01"
+    ]
+  },
+  "music.explore": {
+    "sounds": [
+      "gothiccraft:music/explore00"
+    ]
+  },
+  "music.monastery": {
+    "sounds": [
+      "gothiccraft:music/monastery00"
+    ]
+  },
+  "music.myrtana": {
+    "sounds": [
+      "gothiccraft:music/myrtana00",
+      "gothiccraft:music/myrtana01",
+      "gothiccraft:music/myrtana02",
+      "gothiccraft:music/myrtana03",
+      "gothiccraft:music/myrtana04",
+      "gothiccraft:music/myrtana05",
+      "gothiccraft:music/myrtana06"
+    ]
+  },
+  "music.myrtana-woods": {
+    "sounds": [
+      "gothiccraft:music/myrtana-woods00",
+      "gothiccraft:music/myrtana-woods01"
+    ]
+  },
+  "music.nordmar": {
+    "sounds": [
+      "gothiccraft:music/nordmar00",
+      "gothiccraft:music/nordmar01",
+      "gothiccraft:music/nordmar02"
+    ]
+  },
+  "music.nordmar-cave": {
+    "sounds": [
+      "gothiccraft:music/nordmar-cave00",
+      "gothiccraft:music/nordmar-cave01"
+    ]
+  },
+  "music.orccamp": {
+    "sounds": [
+      "gothiccraft:music/orccamp",
+      "gothiccraft:music/orcmine00",
+      "gothiccraft:music/orcmine01"
+    ]
+  },
+  "music.sad": {
+    "sounds": [
+      "gothiccraft:music/sad00",
+      "gothiccraft:music/sad01"
+    ]
+  },
+  "music.varant": {
+    "sounds": [
+      "gothiccraft:music/varant00.ogg",
+      "gothiccraft:music/varant01.ogg",
+      "gothiccraft:music/varant03.ogg",
+      "gothiccraft:music/varant04.ogg"
+    ]
+  },
+  "music.vengard": {
+    "sounds": [
+      "gothiccraft:music/vengard00"
+    ]
+  },
+  "music.vistapoint": {
+    "sounds": [
+      "gothiccraft:music/vistapoint-intense00"
+    ]
+  },
+  "music.xardas": {
+    "sounds": [
+      "gothiccraft:music/xardas00",
+      "gothiccraft:music/xardas01"
+    ]
+  },
+  "music.boss-fight": {
+    "sounds": [
+      "gothiccraft:music/myrtana-boss-fight00"
     ]
   }
 }
