@@ -497,6 +497,43 @@
     ],
     "replace": true
   },
+  "entity.skeleton.shoot": {
+    "sounds": [
+      "arrow/shoot_1",
+      "arrow/shoot_2",
+      "arrow/shoot_3"
+    ],
+    "replace": true
+  },
+  "entity.skeleton.ambient": {
+    "sounds": [
+      "skeleton/off"
+    ],
+    "replace": true
+  },
+  "entity.skeleton.hurt": {
+    "sounds": [
+      "skeleton/hurt/skeleton_hurt_0",
+      "skeleton/hurt/skeleton_hurt_1",
+      "skeleton/hurt/skeleton_hurt_2"
+    ],
+    "replace": true
+  },
+  "entity.skeleton.death": {
+    "sounds": [
+      "skeleton/death/skeleton_death_0",
+      "skeleton/death/skeleton_death_1"
+    ],
+    "replace": true
+  },
+  "entity.skeleton.step": {
+    "sounds": [
+      "skeleton/step/skeleton_step_0",
+      "skeleton/step/skeleton_step_1",
+      "skeleton/step/skeleton_step_2"
+    ],
+    "replace": true
+  },
   "entity.chicken.egg": {
     "sounds": [ "chicken/egg" ],
     "replace": true
