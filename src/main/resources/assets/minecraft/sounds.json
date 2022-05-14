@@ -42,6 +42,46 @@
     ],
     "replace": true
   },
+  "block.snow.step": {
+    "sounds": [
+      {"name": "block/snow/eff_step_human_run_left_snow_01", "volume": 1},
+      {"name": "block/snow/eff_step_human_run_left_snow_02", "volume": 1},
+      {"name": "block/snow/eff_step_human_run_left_snow_03", "volume": 1},
+      {"name": "block/snow/eff_step_human_run_left_snow_04", "volume": 1},
+      {"name": "block/snow/eff_step_human_run_left_snow_05", "volume": 1},
+      {"name": "block/snow/eff_step_human_run_left_snow_06", "volume": 1},
+      {"name": "block/snow/eff_step_human_run_left_snow_07", "volume": 1},
+      {"name": "block/snow/eff_step_human_run_right_snow_01", "volume": 1},
+      {"name": "block/snow/eff_step_human_run_right_snow_02", "volume": 1},
+      {"name": "block/snow/eff_step_human_run_right_snow_03", "volume": 1},
+      {"name": "block/snow/eff_step_human_run_right_snow_04", "volume": 1},
+      {"name": "block/snow/eff_step_human_run_right_snow_05", "volume": 1},
+      {"name": "block/snow/eff_step_human_run_right_snow_06", "volume": 1},
+      {"name": "block/snow/eff_step_human_run_right_snow_07", "volume": 1}
+    ],
+    "replace": true
+  },
+  "block.powder_snow.step": {
+    "sounds": [
+      {"name": "block/snow/eff_step_human_walk_left_snow_01", "volume": 1},
+      {"name": "block/snow/eff_step_human_walk_left_snow_02", "volume": 1},
+      {"name": "block/snow/eff_step_human_walk_left_snow_03", "volume": 1},
+      {"name": "block/snow/eff_step_human_walk_left_snow_04", "volume": 1},
+      {"name": "block/snow/eff_step_human_walk_left_snow_05", "volume": 1},
+      {"name": "block/snow/eff_step_human_walk_left_snow_06", "volume": 1},
+      {"name": "block/snow/eff_step_human_walk_left_snow_07", "volume": 1},
+      {"name": "block/snow/eff_step_human_walk_left_snow_08", "volume": 1},
+      {"name": "block/snow/eff_step_human_walk_right_snow_01", "volume": 1},
+      {"name": "block/snow/eff_step_human_walk_right_snow_02", "volume": 1},
+      {"name": "block/snow/eff_step_human_walk_right_snow_03", "volume": 1},
+      {"name": "block/snow/eff_step_human_walk_right_snow_04", "volume": 1},
+      {"name": "block/snow/eff_step_human_walk_right_snow_05", "volume": 1},
+      {"name": "block/snow/eff_step_human_walk_right_snow_06", "volume": 1},
+      {"name": "block/snow/eff_step_human_walk_right_snow_07", "volume": 1},
+      {"name": "block/snow/eff_step_human_walk_right_snow_08", "volume": 1}
+    ],
+    "replace": true
+  },
   "block.stone.break": {
     "sounds": [
       "block/stone/pickore_01_a01",
@@ -73,20 +113,171 @@
   },
   "block.water.ambient": {
     "sounds": [
-      {"name": "block/water/river_01", "volume": 0.1, "attenuation_distance": 16},
-      {"name": "block/water/river_02", "volume": 0.1, "attenuation_distance": 16},
-      {"name": "block/water/river_03", "volume": 0.1, "attenuation_distance": 16},
-      {"name": "block/water/river_04", "volume": 0.1, "attenuation_distance": 16},
-      {"name": "block/water/river_05", "volume": 0.1, "attenuation_distance": 16},
-      {"name": "block/water/river_06", "volume": 0.1, "attenuation_distance": 16},
-      {"name": "block/water/river_07", "volume": 0.1, "attenuation_distance": 16},
-      {"name": "block/water/water_beach_01", "volume": 0.1, "attenuation_distance": 16},
-      {"name": "block/water/water_broom_01", "volume": 0.1, "attenuation_distance": 16},
-      {"name": "block/water/waterfall_01", "volume": 0.1, "attenuation_distance": 16},
-      {"name": "block/water/waterfall_02", "volume": 0.1, "attenuation_distance": 16},
-      {"name": "block/water/waterfall_03", "volume": 0.1, "attenuation_distance": 16},
-      {"name": "block/water/waterfall_06", "volume": 0.1, "attenuation_distance": 16},
-      {"name": "block/water/waterfall_distant_01", "volume": 0.1, "attenuation_distance": 16}
+      {"name": "block/water/waterfall_03", "volume": 1, "attenuation_distance": 8}
+    ],
+    "replace": true
+  },
+  "entity.zombie.ambient": {
+    "sounds": [
+      "zombie/ambient/orc_ambient_0",
+      "zombie/ambient/orc_ambient_1",
+      "zombie/ambient/orc_ambient_2",
+      "zombie/ambient/orc_ambient_3",
+      "zombie/ambient/orc_ambient_4"
+    ],
+    "replace": true
+  },
+  "entity.zombie.step": {
+    "sounds": [
+      "zombie/step/step_0",
+      "zombie/step/step_1",
+      "zombie/step/step_2",
+      "zombie/step/step_3"
+    ],
+    "replace": true
+  },
+  "entity.zombie.hurt": {
+    "sounds": [
+      "zombie/hurt/orc_hurt_0",
+      "zombie/hurt/orc_hurt_1",
+      "zombie/hurt/orc_hurt_2",
+      "zombie/hurt/orc_hurt_3",
+      "zombie/hurt/orc_hurt_4",
+      "zombie/hurt/orc_hurt_5",
+      "zombie/hurt/orc_hurt_6"
+    ],
+    "replace": true
+  },
+  "entity.zombie.death": {
+    "sounds": [
+      "zombie/death/orc_death_0",
+      "zombie/death/orc_death_1",
+      "zombie/death/orc_death_2",
+      "zombie/death/orc_death_3",
+      "zombie/death/orc_death_4",
+      "zombie/death/orc_death_5",
+      "zombie/death/orc_death_6",
+      "zombie/death/orc_death_7"
+    ],
+    "replace": true
+  },
+  "entity.zombie.attack_wooden_door": {
+    "sounds": [
+      "zombie/attack_wooden_door/orc_raus_0"
+    ],
+    "replace": true
+  },
+  "entity.zombie.attack_iron_door": {
+    "sounds": [
+      "zombie/attack_wooden_door/orc_raus_0"
+    ],
+    "replace": true
+  },
+  "entity.zombie.wooden_door_break": {
+    "sounds": [
+      "zombie/door_break/break"
+    ],
+    "replace": true
+  },
+  "entity.spider.step": {
+    "sounds": [
+      "spider/step/spider_step_0",
+      "spider/step/spider_step_1",
+      "spider/step/spider_step_2",
+      "spider/step/spider_step_3",
+      "spider/step/spider_step_4"
+    ],
+    "replace": true
+  },
+  "entity.spider.hurt": {
+    "sounds": [
+      "spider/hurt/spider_hurt_0",
+      "spider/hurt/spider_hurt_1",
+      "spider/hurt/spider_hurt_2",
+      "spider/hurt/spider_hurt_3",
+      "spider/hurt/spider_hurt_4"
+    ],
+    "replace": true
+  },
+  "entity.spider.death": {
+    "sounds": [
+      "spider/death/spider_death_0"
+    ],
+    "replace": true
+  },
+  "entity.spider.ambient": {
+    "sounds": [
+      "spider/ambient/spider_ambient_0",
+      "spider/ambient/spider_ambient_1",
+      "spider/ambient/spider_ambient_2",
+      "spider/ambient/spider_ambient_4",
+      "spider/ambient/spider_ambient_5",
+      "spider/ambient/spider_ambient_6",
+      "spider/ambient/spider_ambient_7",
+      "spider/ambient/spider_ambient_8",
+      "spider/ambient/spider_ambient_9",
+      "spider/ambient/spider_ambient_10"
+    ],
+    "replace": true
+  },
+  "entity.wolf.ambient": {
+    "sounds": [
+      "wolf/ambient/wolf_ambient_0",
+      "wolf/ambient/wolf_ambient_1",
+      "wolf/ambient/wolf_ambient_2",
+      "wolf/ambient/wolf_ambient_3"
+    ],
+    "replace": true
+  },
+  "entity.wolf.death": {
+    "sounds": [
+      "wolf/death/wolf_death_0",
+      "wolf/death/wolf_death_1",
+      "wolf/death/wolf_death_2"
+    ],
+    "replace": true
+  },
+  "entity.wolf.growl": {
+    "sounds": [
+      "wolf/growl/wolf_growl_0",
+      "wolf/growl/wolf_growl_1",
+      "wolf/growl/wolf_growl_2",
+      "wolf/growl/wolf_growl_3",
+      "wolf/growl/wolf_growl_4",
+      "wolf/growl/wolf_growl_5",
+      "wolf/growl/wolf_growl_6",
+      "wolf/growl/wolf_growl_7",
+      "wolf/growl/wolf_growl_8",
+      "wolf/growl/wolf_growl_9",
+      "wolf/growl/wolf_growl_10"
+    ],
+    "replace": true
+  },
+  "entity.wolf.howl": {
+    "sounds": [
+      "wolf/howl/wolf_howl_0",
+      "wolf/howl/wolf_howl_1",
+      "wolf/howl/wolf_howl_2",
+      "wolf/howl/wolf_howl_3",
+      "wolf/howl/wolf_howl_4"
+    ],
+    "replace": true
+  },
+  "entity.wolf.hurt": {
+    "sounds": [
+      "wolf/hurt/wolf_stumble_01",
+      "wolf/hurt/wolf_stumble_02",
+      "wolf/hurt/wolf_stumble_03",
+      "wolf/hurt/wolf_stumble_04",
+      "wolf/hurt/wolf_stumble_05",
+      "wolf/hurt/wolf_stumble_06",
+      "wolf/hurt/wolf_stumble_07"
+    ],
+    "replace": true
+  },
+  "entity.wolf.whine": {
+    "sounds": [
+      "wolf/whine/whine"
     ],
     "replace": true
   },
@@ -304,6 +495,43 @@
     ],
     "replace": true
   },
+  "entity.skeleton.shoot": {
+    "sounds": [
+      "arrow/shoot_1",
+      "arrow/shoot_2",
+      "arrow/shoot_3"
+    ],
+    "replace": true
+  },
+  "entity.skeleton.ambient": {
+    "sounds": [
+      "skeleton/off"
+    ],
+    "replace": true
+  },
+  "entity.skeleton.hurt": {
+    "sounds": [
+      "skeleton/hurt/skeleton_hurt_0",
+      "skeleton/hurt/skeleton_hurt_1",
+      "skeleton/hurt/skeleton_hurt_2"
+    ],
+    "replace": true
+  },
+  "entity.skeleton.death": {
+    "sounds": [
+      "skeleton/death/skeleton_death_0",
+      "skeleton/death/skeleton_death_1"
+    ],
+    "replace": true
+  },
+  "entity.skeleton.step": {
+    "sounds": [
+      "skeleton/step/skeleton_step_0",
+      "skeleton/step/skeleton_step_1",
+      "skeleton/step/skeleton_step_2"
+    ],
+    "replace": true
+  },
   "entity.chicken.egg": {
     "sounds": [ "chicken/egg" ],
     "replace": true
@@ -330,6 +558,66 @@
     ],
     "replace": true
   },
+  "entity.cow.ambient": {
+    "sounds": [
+      "cow/sfx_creature_cow_moo_01",
+      "cow/sfx_creature_cow_moo_02",
+      "cow/sfx_creature_cow_moo_03"
+    ],
+    "replace": true
+  },
+  "entity.cow.death": {
+    "sounds": [
+      "cow/sfx_creature_cow_die_01",
+      "cow/sfx_creature_cow_die_02",
+      "cow/sfx_creature_cow_die_03",
+      "cow/sfx_creature_cow_die_04",
+      "cow/sfx_creature_cow_die_05"
+    ],
+    "replace": true
+  },
+  "entity.cow.hurt": {
+    "sounds": [
+      "cow/sfx_creature_cow_stumble_01",
+      "cow/sfx_creature_cow_stumble_02",
+      "cow/sfx_creature_cow_stumble_03",
+      "cow/sfx_creature_cow_stumble_04",
+      "cow/sfx_creature_cow_stumble_05",
+      "cow/sfx_creature_cow_stumble_06"
+    ],
+    "replace": true
+  },
+  "entity.pig.ambient": {
+    "sounds": [
+      "pig/sfx_creature_pig_ambient_01",
+      "pig/sfx_creature_pig_ambient_02",
+      "pig/sfx_creature_pig_ambient_03",
+      "pig/sfx_creature_pig_ambient_04",
+      "pig/sfx_creature_pig_ambient_05",
+      "pig/sfx_creature_pig_ambient_06",
+      "pig/sfx_creature_pig_ambient_07",
+      "pig/sfx_creature_pig_ambient_08",
+      "pig/sfx_creature_pig_ambient_09"
+    ],
+    "replace": true
+  },
+  "entity.pig.hurt": {
+    "sounds": [
+      "pig/sfx_creature_pig_stumble_01",
+      "pig/sfx_creature_pig_stumble_02",
+      "pig/sfx_creature_pig_stumble_03",
+      "pig/sfx_creature_pig_stumble_04",
+      "pig/sfx_creature_pig_stumble_05"
+    ],
+    "replace": true
+  },
+  "entity.pig.death": {
+    "sounds": [
+      "pig/sfx_creature_pig_die_01"
+    ],
+    "replace": true
+  },
+
   "music.menu": {
     "sounds": [
       { "name": "music/menu", "stream": true }
