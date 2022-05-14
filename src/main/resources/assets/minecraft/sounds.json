@@ -87,6 +87,15 @@
     ],
     "replace": true
   },
+  "entity.zombie.step": {
+    "sounds": [
+      "zombie/step/step_0",
+      "zombie/step/step_1",
+      "zombie/step/step_2",
+      "zombie/step/step_3"
+    ],
+    "replace": true
+  },
   "entity.zombie.hurt": {
     "sounds": [
       "zombie/hurt/orc_hurt_0",
