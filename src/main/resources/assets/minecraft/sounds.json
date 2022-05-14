@@ -42,6 +42,48 @@
     ],
     "replace": true
   },
+  "block.snow.step": {
+    "sounds": [
+      {"name": "block/snow/eff_step_human_walk_left_snow_01", "volume": 2},
+      {"name": "block/snow/eff_step_human_walk_left_snow_02", "volume": 2},
+      {"name": "block/snow/eff_step_human_walk_left_snow_03", "volume": 2},
+      {"name": "block/snow/eff_step_human_walk_left_snow_04", "volume": 2},
+      {"name": "block/snow/eff_step_human_walk_left_snow_05", "volume": 2},
+      {"name": "block/snow/eff_step_human_walk_left_snow_06", "volume": 2},
+      {"name": "block/snow/eff_step_human_walk_left_snow_07", "volume": 2},
+      {"name": "block/snow/eff_step_human_walk_left_snow_08", "volume": 2},
+      {"name": "block/snow/eff_step_human_walk_right_snow_01", "volume": 2},
+      {"name": "block/snow/eff_step_human_walk_right_snow_02", "volume": 2},
+      {"name": "block/snow/eff_step_human_walk_right_snow_03", "volume": 2},
+      {"name": "block/snow/eff_step_human_walk_right_snow_04", "volume": 2},
+      {"name": "block/snow/eff_step_human_walk_right_snow_05", "volume": 2},
+      {"name": "block/snow/eff_step_human_walk_right_snow_06", "volume": 2},
+      {"name": "block/snow/eff_step_human_walk_right_snow_07", "volume": 2},
+      {"name": "block/snow/eff_step_human_walk_right_snow_08", "volume": 2}
+    ],
+    "replace": true
+  },
+  "block.powder_snow.step": {
+    "sounds": [
+      {"name": "block/snow/eff_step_human_walk_left_snow_01", "volume": 2},
+      {"name": "block/snow/eff_step_human_walk_left_snow_02", "volume": 2},
+      {"name": "block/snow/eff_step_human_walk_left_snow_03", "volume": 2},
+      {"name": "block/snow/eff_step_human_walk_left_snow_04", "volume": 2},
+      {"name": "block/snow/eff_step_human_walk_left_snow_05", "volume": 2},
+      {"name": "block/snow/eff_step_human_walk_left_snow_06", "volume": 2},
+      {"name": "block/snow/eff_step_human_walk_left_snow_07", "volume": 2},
+      {"name": "block/snow/eff_step_human_walk_left_snow_08", "volume": 2},
+      {"name": "block/snow/eff_step_human_walk_right_snow_01", "volume": 2},
+      {"name": "block/snow/eff_step_human_walk_right_snow_02", "volume": 2},
+      {"name": "block/snow/eff_step_human_walk_right_snow_03", "volume": 2},
+      {"name": "block/snow/eff_step_human_walk_right_snow_04", "volume": 2},
+      {"name": "block/snow/eff_step_human_walk_right_snow_05", "volume": 2},
+      {"name": "block/snow/eff_step_human_walk_right_snow_06", "volume": 2},
+      {"name": "block/snow/eff_step_human_walk_right_snow_07", "volume": 2},
+      {"name": "block/snow/eff_step_human_walk_right_snow_08", "volume": 2}
+    ],
+    "replace": true
+  },
   "block.stone.break": {
     "sounds": [
       "block/stone/pickore_01_a01",
