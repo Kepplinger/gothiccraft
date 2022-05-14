@@ -402,7 +402,36 @@
     ],
     "replace": true
   },
-
+  "entity.pig.ambient": {
+    "sounds": [
+      "pig/sfx_creature_pig_ambient_01",
+      "pig/sfx_creature_pig_ambient_02",
+      "pig/sfx_creature_pig_ambient_03",
+      "pig/sfx_creature_pig_ambient_04",
+      "pig/sfx_creature_pig_ambient_05",
+      "pig/sfx_creature_pig_ambient_06",
+      "pig/sfx_creature_pig_ambient_07",
+      "pig/sfx_creature_pig_ambient_08",
+      "pig/sfx_creature_pig_ambient_09"
+    ],
+    "replace": true
+  },
+  "entity.pig.hurt": {
+    "sounds": [
+      "pig/sfx_creature_pig_stumble_01",
+      "pig/sfx_creature_pig_stumble_02",
+      "pig/sfx_creature_pig_stumble_03",
+      "pig/sfx_creature_pig_stumble_04",
+      "pig/sfx_creature_pig_stumble_05"
+    ],
+    "replace": true
+  },
+  "entity.pig.death": {
+    "sounds": [
+      "pig/sfx_creature_pig_die_01"
+    ],
+    "replace": true
+  },
 
   "music.menu": {
     "sounds": [
