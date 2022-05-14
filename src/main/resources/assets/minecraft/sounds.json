@@ -169,9 +169,76 @@
     ],
     "replace": true
   },
+  "entity.zombie.attack_iron_door": {
+    "sounds": [
+      "zombie/attack_wooden_door/orc_raus_0"
+    ],
+    "replace": true
+  },
   "entity.zombie.wooden_door_break": {
     "sounds": [
       "zombie/door_break/break"
+    ],
+    "replace": true
+  },
+  "entity.wolf.ambient": {
+    "sounds": [
+      "wolf/ambient/wolf_ambient_0",
+      "wolf/ambient/wolf_ambient_1",
+      "wolf/ambient/wolf_ambient_2",
+      "wolf/ambient/wolf_ambient_3"
+    ],
+    "replace": true
+  },
+  "entity.wolf.death": {
+    "sounds": [
+      "wolf/death/wolf_death_0",
+      "wolf/death/wolf_death_1",
+      "wolf/death/wolf_death_2"
+    ],
+    "replace": true
+  },
+  "entity.wolf.growl": {
+    "sounds": [
+      "wolf/growl/wolf_growl_0",
+      "wolf/growl/wolf_growl_1",
+      "wolf/growl/wolf_growl_2",
+      "wolf/growl/wolf_growl_3",
+      "wolf/growl/wolf_growl_4",
+      "wolf/growl/wolf_growl_5",
+      "wolf/growl/wolf_growl_6",
+      "wolf/growl/wolf_growl_7",
+      "wolf/growl/wolf_growl_8",
+      "wolf/growl/wolf_growl_9",
+      "wolf/growl/wolf_growl_10"
+    ],
+    "replace": true
+  },
+  "entity.wolf.howl": {
+    "sounds": [
+      "wolf/howl/wolf_howl_0",
+      "wolf/howl/wolf_howl_1",
+      "wolf/howl/wolf_howl_2",
+      "wolf/howl/wolf_howl_3",
+      "wolf/howl/wolf_howl_4"
+    ],
+    "replace": true
+  },
+  "entity.wolf.hurt": {
+    "sounds": [
+      "wolf/hurt/wolf_stumble_01",
+      "wolf/hurt/wolf_stumble_02",
+      "wolf/hurt/wolf_stumble_03",
+      "wolf/hurt/wolf_stumble_04",
+      "wolf/hurt/wolf_stumble_05",
+      "wolf/hurt/wolf_stumble_06",
+      "wolf/hurt/wolf_stumble_07"
+    ],
+    "replace": true
+  },
+  "entity.wolf.whine": {
+    "sounds": [
+      "wolf/whine/whine"
     ],
     "replace": true
   },
