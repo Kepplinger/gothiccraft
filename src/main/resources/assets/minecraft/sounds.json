@@ -181,6 +181,47 @@
     ],
     "replace": true
   },
+  "entity.spider.step": {
+    "sounds": [
+      "spider/step/spider_step_0",
+      "spider/step/spider_step_1",
+      "spider/step/spider_step_2",
+      "spider/step/spider_step_3",
+      "spider/step/spider_step_4"
+    ],
+    "replace": true
+  },
+  "entity.spider.hurt": {
+    "sounds": [
+      "spider/hurt/spider_hurt_0",
+      "spider/hurt/spider_hurt_1",
+      "spider/hurt/spider_hurt_2",
+      "spider/hurt/spider_hurt_3",
+      "spider/hurt/spider_hurt_4"
+    ],
+    "replace": true
+  },
+  "entity.spider.death": {
+    "sounds": [
+      "spider/death/spider_death_0"
+    ],
+    "replace": true
+  },
+  "entity.spider.ambient": {
+    "sounds": [
+      "spider/ambient/spider_ambient_0",
+      "spider/ambient/spider_ambient_1",
+      "spider/ambient/spider_ambient_2",
+      "spider/ambient/spider_ambient_4",
+      "spider/ambient/spider_ambient_5",
+      "spider/ambient/spider_ambient_6",
+      "spider/ambient/spider_ambient_7",
+      "spider/ambient/spider_ambient_8",
+      "spider/ambient/spider_ambient_9",
+      "spider/ambient/spider_ambient_10"
+    ],
+    "replace": true
+  },
   "entity.wolf.ambient": {
     "sounds": [
       "wolf/ambient/wolf_ambient_0",
