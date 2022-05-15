@@ -134,12 +134,14 @@ public class BiomeMusicService {
 
             if (activeBiomeName == null) {
                 activeBiomeName = biomeName;
+                System.out.println("First sound for " + biomeName);
 
                 return true;
             } else if (isNewBiome(biomeName)) {
                 return isNewBiomeOverThreshold(biomeName);
             } else {
                 potentialNewBiome = null;
+                System.out.println("Reset " + biomeName);
 
                 return false;
             }
@@ -153,13 +155,16 @@ public class BiomeMusicService {
     }
 
     private boolean isNewBiomeOverThreshold(String biomeName) {
-        if (potentialNewBiome == null) {
+        if (potentialNewBiome == null || !biomeName.equals(potentialNewBiome.name)) {
             potentialNewBiome = new BiomeCounter(biomeName, 0);
+            System.out.println("Potential new biome " + biomeName);
 
-        } else if (biomeName.equals(potentialNewBiome.name)) {
+        } else {
             if (potentialNewBiome.count <= 6) {
+                System.out.println("Count for " + biomeName);
                 potentialNewBiome.count++;
             } else {
+                System.out.println("Yeah new biome " + biomeName);
                 activeBiomeName = potentialNewBiome.name;
                 potentialNewBiome = null;
 
@@ -176,6 +181,7 @@ public class BiomeMusicService {
             int randomIndex = new Random().nextInt(soundTracks.length);
 
             System.out.println("Play Music for: " + biome.getRegistryName());
+            System.out.println("Track: " + soundTracks[randomIndex]);
 
             SoundService.play(soundTracks[randomIndex], player);
         } catch (Exception e) {

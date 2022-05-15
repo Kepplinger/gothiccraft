@@ -7,95 +7,95 @@
   },
   "music.arena-fight": {
     "sounds": [
-      "gothiccraft:music/arena-fight00"
+      { "name": "gothiccraft:music/arena-fight00", "preload": true }
     ]
   },
   "music.cave": {
     "sounds": [
-      "gothiccraft:music/cave00",
-      "gothiccraft:music/cave01"
+      { "name": "gothiccraft:music/cave00", "preload": true },
+      { "name": "gothiccraft:music/cave01", "preload": true }
     ]
   },
   "music.explore": {
     "sounds": [
-      "gothiccraft:music/explore00"
+      { "name": "gothiccraft:music/explore00", "preload": true }
     ]
   },
   "music.monastery": {
     "sounds": [
-      "gothiccraft:music/monastery00"
+      { "name": "gothiccraft:music/monastery00", "preload": true }
     ]
   },
   "music.myrtana": {
     "sounds": [
-      "gothiccraft:music/myrtana00",
-      "gothiccraft:music/myrtana01",
-      "gothiccraft:music/myrtana02",
-      "gothiccraft:music/myrtana03",
-      "gothiccraft:music/myrtana04",
-      "gothiccraft:music/myrtana05",
-      "gothiccraft:music/myrtana06"
+      { "name": "gothiccraft:music/myrtana00", "preload": true },
+      { "name": "gothiccraft:music/myrtana01", "preload": true },
+      { "name": "gothiccraft:music/myrtana02", "preload": true },
+      { "name": "gothiccraft:music/myrtana03", "preload": true },
+      { "name": "gothiccraft:music/myrtana04", "preload": true },
+      { "name": "gothiccraft:music/myrtana05", "preload": true },
+      { "name": "gothiccraft:music/myrtana06", "preload": true }
     ]
   },
   "music.myrtana-woods": {
     "sounds": [
-      "gothiccraft:music/myrtana-woods00",
-      "gothiccraft:music/myrtana-woods01"
+      { "name": "gothiccraft:music/myrtana-woods00", "preload": true },
+      { "name": "gothiccraft:music/myrtana-woods01", "preload": true }
     ]
   },
   "music.nordmar": {
     "sounds": [
-      "gothiccraft:music/nordmar00",
-      "gothiccraft:music/nordmar01",
-      "gothiccraft:music/nordmar02"
+      { "name": "gothiccraft:music/nordmar00", "preload": true },
+      { "name": "gothiccraft:music/nordmar01", "preload": true },
+      { "name": "gothiccraft:music/nordmar02", "preload": true }
     ]
   },
   "music.nordmar-cave": {
     "sounds": [
-      "gothiccraft:music/nordmar-cave00",
-      "gothiccraft:music/nordmar-cave01"
+      { "name": "gothiccraft:music/nordmar-cave00", "preload": true },
+      { "name": "gothiccraft:music/nordmar-cave01", "preload": true }
     ]
   },
   "music.orccamp": {
     "sounds": [
-      "gothiccraft:music/orccamp",
-      "gothiccraft:music/orcmine00",
-      "gothiccraft:music/orcmine01"
+      { "name": "gothiccraft:music/orccamp", "preload": true },
+      { "name": "gothiccraft:music/orcmine00", "preload": true },
+      { "name": "gothiccraft:music/orcmine01", "preload": true }
     ]
   },
   "music.sad": {
     "sounds": [
-      "gothiccraft:music/sad00",
-      "gothiccraft:music/sad01"
+      { "name": "gothiccraft:music/sad00", "preload": true },
+      { "name": "gothiccraft:music/sad01", "preload": true }
     ]
   },
   "music.varant": {
     "sounds": [
-      "gothiccraft:music/varant00.ogg",
-      "gothiccraft:music/varant01.ogg",
-      "gothiccraft:music/varant03.ogg",
-      "gothiccraft:music/varant04.ogg"
+      { "name": "gothiccraft:music/varant00", "preload": true },
+      { "name": "gothiccraft:music/varant01", "preload": true },
+      { "name": "gothiccraft:music/varant03", "preload": true },
+      { "name": "gothiccraft:music/varant04", "preload": true }
     ]
   },
   "music.vengard": {
     "sounds": [
-      "gothiccraft:music/vengard00"
+      { "name": "gothiccraft:music/vengard00", "preload": true }
     ]
   },
   "music.vistapoint": {
     "sounds": [
-      "gothiccraft:music/vistapoint-intense00"
+      { "name": "gothiccraft:music/vistapoint-intense00", "preload": true }
     ]
   },
   "music.xardas": {
     "sounds": [
-      "gothiccraft:music/xardas00",
-      "gothiccraft:music/xardas01"
+      { "name": "gothiccraft:music/xardas00", "preload": true },
+      { "name": "gothiccraft:music/xardas01", "preload": true }
     ]
   },
   "music.boss-fight": {
     "sounds": [
-      "gothiccraft:music/myrtana-boss-fight00"
+      { "name": "gothiccraft:music/myrtana-boss-fight00", "preload": true }
     ]
   }
 }
