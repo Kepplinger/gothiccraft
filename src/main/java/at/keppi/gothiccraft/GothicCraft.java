@@ -1,7 +1,6 @@
 package at.keppi.gothiccraft;
 
 import at.keppi.gothiccraft.registry.SoundRegistry;
-import at.keppi.gothiccraft.ticker.BiomeMusicTicker;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
