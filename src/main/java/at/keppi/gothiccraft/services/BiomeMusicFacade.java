@@ -1,7 +1,9 @@
 package at.keppi.gothiccraft.services;
 
 import at.keppi.gothiccraft.registry.SoundRegistry;
+import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.biome.Biome;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.Collections;
@@ -212,7 +214,8 @@ public class BiomeMusicFacade {
         put("wooded_mountains", new RegistryObject[]{SoundRegistry.MUSIC_MYRTANTA_WOODS});
     }};
 
-    public static RegistryObject[] get(String key, Level level) {
+    public static RegistryObject[] getBiomeMusic(Biome biome, Level level) {
+        String key = biome.getRegistryName().getPath();
         return getBiomeMusicMap(level).get(key);
     }
 
@@ -220,5 +223,9 @@ public class BiomeMusicFacade {
         return level.isDay()
                 ? Collections.unmodifiableMap(BIOME_MUSIC_DAY_MAP)
                 : Collections.unmodifiableMap(BIOME_MUSIC_NIGHT_MAP);
+    }
+
+    public static RegistryObject<SoundEvent> getTransition() {
+        return SoundRegistry.MUSIC_TRANSITION;
     }
 }

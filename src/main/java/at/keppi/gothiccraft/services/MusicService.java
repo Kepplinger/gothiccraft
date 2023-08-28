@@ -1,43 +1,39 @@
 package at.keppi.gothiccraft.services;
 
+import at.keppi.gothiccraft.entities.MusicTickableSoundInstance;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.resources.sounds.SimpleSoundInstance;
 import net.minecraft.client.sounds.MusicManager;
 import net.minecraft.client.sounds.SoundManager;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.sounds.Music;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.sounds.SoundSource;
 import net.minecraftforge.registries.RegistryObject;
 
 public class MusicService {
 
-    private static Music currentMusic = null;
-    private static Music previousMusic = null;
+    private static MusicTickableSoundInstance currentMusic = null;
 
-    public static boolean play(RegistryObject<SoundEvent> sound) {
-        Music music = new Music(sound.get(), 0, 0, true);
+    public static boolean playMusic(RegistryObject<SoundEvent> sound) {
+        MusicTickableSoundInstance music = new MusicTickableSoundInstance(sound.get());
 
-        if (currentMusic == null || !currentMusic.getEvent().getLocation().getPath().equals(music.getEvent().getLocation().getPath())) {
-            getMusicManager().startPlaying(music);
+        if (currentMusic == null || !currentMusic.getLocation().getPath().equals(music.getLocation().getPath())) {
+            getSoundManager().play(music);
 
             if (currentMusic != null) {
-                previousMusic = currentMusic;
+                currentMusic.fadeOut();
+                playTransition(40);
             }
 
             currentMusic = music;
             return true;
-        } else {
-            return false;
         }
+
+        return false;
     }
 
-    public static void stopPreviousMusic() {
-        if (previousMusic != null) {
-            ResourceLocation musicLocation = previousMusic.getEvent().getLocation();
-            System.out.println("Stop previous music: " + musicLocation);
-            getSoundManager().stop(musicLocation, SoundSource.MUSIC);
-            previousMusic = null;
-        }
+    public static void playTransition(int delayTicks) {
+        RegistryObject<SoundEvent> transitionSound = BiomeMusicFacade.getTransition();
+        SimpleSoundInstance transitionSoundInstance = SimpleSoundInstance.forMusic(transitionSound.get());
+        getSoundManager().playDelayed(transitionSoundInstance, delayTicks);
     }
 
     private static MusicManager getMusicManager() {

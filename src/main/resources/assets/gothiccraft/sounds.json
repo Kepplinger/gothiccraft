@@ -97,5 +97,10 @@
     "sounds": [
       { "name": "gothiccraft:music/myrtana-boss-fight00", "preload": true }
     ]
+  },
+  "music.transition": {
+    "sounds": [
+      { "name": "gothiccraft:transition/transition00", "preload": true }
+    ]
   }
 }

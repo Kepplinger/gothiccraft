@@ -30,6 +30,7 @@ public class SoundRegistry {
     public static final RegistryObject<SoundEvent> MUSIC_SAD = registerSound("music.sad");
     public static final RegistryObject<SoundEvent> MUSIC_VISTAPOINT = registerSound("music.vistapoint");
     public static final RegistryObject<SoundEvent> MUSIC_XARDAS = registerSound("music.xardas");
+    public static final RegistryObject<SoundEvent> MUSIC_TRANSITION = registerSound("music.transition");
 
     public static RegistryObject<SoundEvent> registerSound(String name) {
         return SOUNDS.register(name, () -> new SoundEvent(new ResourceLocation(GothicCraft.ID, name)));
