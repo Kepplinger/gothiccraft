@@ -2,7 +2,6 @@ package at.keppi.gothiccraft.ticker;
 
 import at.keppi.gothiccraft.GothicCraft;
 import at.keppi.gothiccraft.services.BiomeMusicService;
-import at.keppi.gothiccraft.services.MusicService;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.biome.Biome;
@@ -12,8 +11,12 @@ import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
+/***
+ * Listenes on Player ticks and manages the in-game music based on different events.
+ * Events can be anything like biome/location change, enemy encounter.
+ */
 @Mod.EventBusSubscriber(modid = GothicCraft.ID, bus = Mod.EventBusSubscriber.Bus.FORGE, value = Dist.CLIENT)
-public class BiomeMusicTicker {
+public class MusicTicker {
 
     private final static int THROTTLE_FACTOR = 50;
     private static int throttleCounter = 0;

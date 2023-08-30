@@ -20,7 +20,7 @@ public class MusicService {
 
             if (currentMusic != null) {
                 currentMusic.fadeOut();
-                playTransition(40);
+                playTransition(20);
             }
 
             currentMusic = music;

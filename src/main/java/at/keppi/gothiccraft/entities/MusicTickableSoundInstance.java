@@ -6,7 +6,7 @@ import net.minecraft.sounds.SoundSource;
 
 public class MusicTickableSoundInstance extends AbstractTickableSoundInstance {
 
-    public static final int FADE_DURATION = 60;
+    public static final int FADE_DURATION = 40;
     private float fade = FADE_DURATION;
     private boolean fadeOut = false;
 
