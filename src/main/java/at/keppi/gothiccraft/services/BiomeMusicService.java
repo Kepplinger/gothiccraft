@@ -1,17 +1,21 @@
 package at.keppi.gothiccraft.services;
 
+import at.keppi.gothiccraft.utils.SimpleCounter;
+import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.biome.Biome;
+import net.minecraft.world.phys.Vec3;
+import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.Random;
 
-public class BiomeMusicService {
+public class BiomeMusicService implements MusicEventService {
 
     private static BiomeMusicService instance;
 
     private String activeBiomeName;
-    private BiomeCounter potentialNewBiomeCounter;
+    private SimpleCounter potentialNewBiomeCounter;
 
     private BiomeMusicService() {
     }
@@ -22,6 +26,26 @@ public class BiomeMusicService {
         }
 
         return instance;
+    }
+
+    public int getPriority() {
+        return 100;
+    }
+
+    public boolean handleTick(TickEvent.PlayerTickEvent event) {
+        Biome biome = getCurrentPlayerBiome(event);
+
+        if (hasBiomeChanged(biome)) {
+            return playBiomeMusic(biome, event.player);
+        } else {
+            return false;
+        }
+    }
+
+    private Biome getCurrentPlayerBiome(TickEvent.PlayerTickEvent event) {
+        Player player = event.player;
+        Vec3 playerPosition = player.position();
+        return player.level.getBiome(new BlockPos(playerPosition));
     }
 
     public boolean hasBiomeChanged(Biome biome) {
@@ -52,30 +76,26 @@ public class BiomeMusicService {
 
     private boolean isNewBiomeOverThreshold(String biomeName) {
         if (potentialNewBiomeCounter == null || !biomeName.equals(potentialNewBiomeCounter.name)) {
-            potentialNewBiomeCounter = new BiomeCounter(biomeName);
+            potentialNewBiomeCounter = new SimpleCounter(biomeName);
             System.out.println("Potential new biome " + biomeName);
-
         } else {
-            if (!potentialNewBiomeCounter.finished()) {
-                System.out.println("Count for " + biomeName);
-                potentialNewBiomeCounter.count();
-            } else {
+            if (potentialNewBiomeCounter.isLimitReached()) {
                 System.out.println("Yeah new biome " + biomeName);
                 activeBiomeName = potentialNewBiomeCounter.name;
                 potentialNewBiomeCounter = null;
                 return true;
+            } else {
+                System.out.println("Count for " + biomeName);
+                potentialNewBiomeCounter.count();
             }
         }
 
         return false;
     }
 
-    public boolean playBiomeMusic(Biome biome, Player player) {
+    private boolean playBiomeMusic(Biome biome, Player player) {
         try {
-            RegistryObject[] soundTracks = BiomeMusicFacade.getBiomeMusic(biome, player.level);
-            int randomIndex = new Random().nextInt(soundTracks.length);
-
-            RegistryObject biomeMusic = soundTracks[randomIndex];
+            RegistryObject biomeMusic = getRandomBiomeMusic(biome, player);
             System.out.println("Play Music for: " + biome.getRegistryName());
             System.out.println("Track: " + biomeMusic);
 
@@ -86,29 +106,9 @@ public class BiomeMusicService {
         }
     }
 
-    private class BiomeCounter {
-        public static final int DEFAULT_LIMIT = 6;
-
-        public String name;
-        private int count = 0;
-        private int limit;
-
-        public BiomeCounter(String biome) {
-            this(biome, DEFAULT_LIMIT);
-        }
-
-        public BiomeCounter(String biome, int limit) {
-            this.name = biome;
-            this.limit = limit;
-        }
-
-        public int count() {
-            this.count++;
-            return this.count;
-        }
-
-        public boolean finished() {
-            return this.count >= this.limit;
-        }
+    private RegistryObject getRandomBiomeMusic(Biome biome, Player player) {
+        RegistryObject[] soundTracks = BiomeMusicFacade.getBiomeMusic(biome, player.level);
+        int randomIndex = new Random().nextInt(soundTracks.length);
+        return soundTracks[randomIndex];
     }
 }
